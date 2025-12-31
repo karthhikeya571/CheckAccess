@@ -1,0 +1,22 @@
+body {
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: #0587f1;
+}
+button {
+    color: black;
+    background-color: rgb(35, 173, 11);
+    height: 40px;
+}
+.img {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8LT5V7e4xu8Ieo5SPJ_WChcjIRbz8vdC4qOkG6FSEHKJOTQS5RJwybVNwIVSUENf6x1yTuMqMtN2K1iEzlfToy-R4N9WZauhWGSSXN7iGu9xnh4mhp6jE7VKVc1Q5Am3XN4yr02CXazrJ/w0/abstract-colorful-7-4k.jpg"); /* your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px;
+    width: 94%;
+    height: 550px;
+}

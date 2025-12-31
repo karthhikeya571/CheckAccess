@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="access.css">
+</head>
+<body><center> 
+   <div class="img">
+    <h1>Login Access</h1>
+    <label for="user">UserName</label>
+    <input type="text" id="user" placeholder="Enter user name">
+    <br>
+    <br>
+    <label for="role">Role</label>
+    <select id="role">
+        <option value="Select Role">Select Role</option>`
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="checkAccess()"><b>Submit</b></button>
+    <h2 id ="WelcomeMsg"></h3>
+    <h2 id="hasaccess"></h3>
+   <script src="./app.js"></script>
+    
+   </div>
+</body>
+</html
